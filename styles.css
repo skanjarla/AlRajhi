@@ -16,6 +16,9 @@ body {
 label {
   color: #333333;
 }
+label span {
+  margin-left: 0.8rem;
+}
 .form-control {
   padding: 1.4rem 0.5rem;
 }
