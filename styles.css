@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.form-wrapper {
+  background-color: #f2f2f2;
+}
+.group-title {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+label {
+  color: #333333;
+}
+.form-control {
+  padding: 1.4rem 0.5rem;
+}
+.form-group {
+  padding-left: 1rem !important;
+  margin-bottom: 1.2rem;
+  padding-right: 1rem !important;
+}
+li {
+  padding: 0.5rem 0.2rem;
+}
+
+.app-btn {
+  background-color: #29419b;
+}
+.app-btn:hover {
+  background-color: hsl(227, 58%, 42%);
+}
