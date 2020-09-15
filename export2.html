@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        this is content of div
+    </div>
+</body>
+<script>
+    function downloadInnerHtml(filename, elId) {
+        var elHtml = document.getElementById(elId).innerHTML;
+        var link = document.createElement('a');
+        link.setAttribute('download', filename);
+        link.setAttribute('href', 'data:' + 'text/doc' + ';charset=utf-8,' + encodeURIComponent(elHtml));
+        link.click();
+    }
+    var fileName = 'tags.doc'; // You can use the .txt extension if you want
+    downloadInnerHtml(fileName, 'main');
+</script>
+
+</html>
